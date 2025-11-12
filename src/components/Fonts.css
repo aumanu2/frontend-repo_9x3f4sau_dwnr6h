@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&family=Urbanist:wght@400;500;600&display=swap');
+
+:root{
+  --heading-font: 'Poppins', 'Satoshi', sans-serif;
+  --body-font: 'Inter', 'Urbanist', sans-serif;
+}
+
+.heading{
+  font-family: var(--heading-font);
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.body{
+  font-family: var(--body-font);
+}
